@@ -80,11 +80,11 @@
     color: #eeeeee;
 }
 
-.atribuiçoes ul {
+.atribuicoes ul {
     padding-top: 1.5rem;
 }
 
-.atribuiçoes ul li p {
+.atribuicoes ul li p {
     padding: .4rem 0;
     color: #eeeeee;
 }
@@ -109,7 +109,8 @@
 }
 
 .conteudo-experiencia,
-.conteudo-educacao {
+.conteudo-educacao,
+.conteudo-premios {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding-bottom: 2rem;
@@ -117,23 +118,27 @@
 }
 
 .exp-nome-empresa,
-.nome-escola {
+.nome-escola,
+.empresa-premios {
     font-size: 25px;
     font-weight: bold;
 }
 
 .exp-tempo,
-.periodo-escola {
+.periodo-escola,
+.tempo-premios {
     font-size: 18px;
 }
 
 .posicao-exp,
-.educacao-subj {
+.educacao-subj,
+.nome-premios {
     font-size: 25px;
 }
 
 .desc-exp,
-.educacao-desc {
+.educacao-desc,
+.desc-premios {
     font-size: 16px;
     padding-left: 5px;
 }
